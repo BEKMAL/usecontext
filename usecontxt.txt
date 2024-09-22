@@ -1,0 +1,12 @@
+1.create the context using create context
+2.the function that define the context that should be provided with 
+  return the created context.provider and value that should be 
+avilable to all component using the context
+
+3.rap the (the higher)components with this provider function with the 
+argument (if) as props
+//
+4.using usecontext(the created context) in another component
+5.usecontext returns the context value for the calling component
+It is determined as the value passed to the closest SomeContext.
+Provider above the calling component in the tree.
